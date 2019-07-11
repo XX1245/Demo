@@ -1,0 +1,1900 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://github.com/ityouknow/spring-boot-examples -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+  <link rel="dns-prefetch" href="https://github.githubassets.com/">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com/">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-67V2J9Se2CifJlftk9/cExHGvxd7N9b9EdGnQEpszu99Ogeecilu9jIDxoCkx3zNLfB9ArraXW0J03qyVmN0Uw==" rel="stylesheet" href="./s-b-f-up_files/frameworks-e7318add1f7e055d040edb0f75aaa0ba.css">
+  
+    <link crossorigin="anonymous" media="all" integrity="sha512-m3Ej6i/Pcrccby7PC+1McGjyuF9icy/BSv8IAj6kU0sgVl3Pf6ZIBwb01ST1x2Rb+q5z5trV9y2W8woD58qK0A==" rel="stylesheet" href="./s-b-f-up_files/github-f4279344f797f282848193392bae6f6f.css">
+    
+    
+    
+    
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>ityouknow/spring-boot-examples: about learning Spring Boot via examples. Spring Boot 教程、技术栈示例代码，快速简单上手教程。</title>
+    <meta name="description" content="about learning Spring Boot via examples. Spring Boot 教程、技术栈示例代码，快速简单上手教程。  - ityouknow/spring-boot-examples">
+    <link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    <meta name="twitter:image:src" content="https://avatars1.githubusercontent.com/u/4979648?s=400&amp;v=4"><meta name="twitter:site" content="@github"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="ityouknow/spring-boot-examples"><meta name="twitter:description" content="about learning Spring Boot via examples. Spring Boot 教程、技术栈示例代码，快速简单上手教程。  - ityouknow/spring-boot-examples">
+    <meta property="og:image" content="https://avatars1.githubusercontent.com/u/4979648?s=400&amp;v=4"><meta property="og:site_name" content="GitHub"><meta property="og:type" content="object"><meta property="og:title" content="ityouknow/spring-boot-examples"><meta property="og:url" content="https://github.com/ityouknow/spring-boot-examples"><meta property="og:description" content="about learning Spring Boot via examples. Spring Boot 教程、技术栈示例代码，快速简单上手教程。  - ityouknow/spring-boot-examples">
+
+  <link rel="assets" href="https://github.githubassets.com/">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDIzNTg2MjE2OjZjOGYxMzQ4NWJiNmM1MjEzMDE3N2IyNmMyMThmYzE2Zjg4NDgzZjBlMDBiOGM3ZGUxNDgwZGViODhlZjcxOGU=--bd80b3c1f271eca9911ca5e06fd01454ea0a386d">
+  <meta name="pjax-timeout" content="1000">
+  <link rel="sudo-modal" href="https://github.com/sessions/sudo_modal">
+  <meta name="request-id" content="5896:645D:85A489:BCB2CB:5D26C09B" data-pjax-transient="">
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient="">
+
+      <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+  <meta name="octolytics-host" content="collector.githubapp.com"><meta name="octolytics-app-id" content="github"><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event"><meta name="octolytics-dimension-request_id" content="5896:645D:85A489:BCB2CB:5D26C09B"><meta name="octolytics-dimension-region_edge" content="ap-southeast-1"><meta name="octolytics-dimension-region_render" content="iad"><meta name="octolytics-actor-id" content="52734750"><meta name="octolytics-actor-login" content="XX1245"><meta name="octolytics-actor-hash" content="d82f45edb7bf7badb21ca60616b86cee70b54e0ae8ef6ca615033bcce0e2f31d">
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true">
+
+
+
+    <meta name="google-analytics" content="UA-3769691-2">
+
+  <meta class="js-ga-set" name="userId" content="a76f26fd77afbfe0abae6a5f963e6c3b">
+
+<meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="XX1245">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="OTQ3ZTVmNjhhYTU3MzJkYmI2NDNlYzZhMDIzODgwNWJmYTM0NDA5MTRmMGUxOTJkYjQ3ZGY3ZmE4NzUwZGU0Mnx7InJlbW90ZV9hZGRyZXNzIjoiMTIxLjM1LjE4Mi4zMCIsInJlcXVlc3RfaWQiOiI1ODk2OjY0NUQ6ODVBNDg5OkJDQjJDQjo1RDI2QzA5QiIsInRpbWVzdGFtcCI6MTU2MjgyMDc2NywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PULL_PANDA_HOMEPAGE,MARKETPLACE_PENDING_INSTALLATIONS,NOTIFY_ON_BLOCK,RELATED_ISSUES,DISPLAY_COMMENTER_FULL_NAME">
+
+  <meta name="html-safe-nonce" content="f8635dcfc8c8a58d4cd64952e4672601e16b986b">
+
+  <meta http-equiv="x-pjax-version" content="41b9ff63b8f4ee38c8cca1ecdadf550e">
+  
+
+      <link href="https://github.com/ityouknow/spring-boot-examples/commits/master.atom" rel="alternate" title="Recent Commits to spring-boot-examples:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/ityouknow/spring-boot-examples git https://github.com/ityouknow/spring-boot-examples.git">
+
+  <meta name="octolytics-dimension-user_id" content="4979648"><meta name="octolytics-dimension-user_login" content="ityouknow"><meta name="octolytics-dimension-repository_id" content="72907253"><meta name="octolytics-dimension-repository_nwo" content="ityouknow/spring-boot-examples"><meta name="octolytics-dimension-repository_public" content="true"><meta name="octolytics-dimension-repository_is_fork" content="false"><meta name="octolytics-dimension-repository_network_root_id" content="72907253"><meta name="octolytics-dimension-repository_network_root_nwo" content="ityouknow/spring-boot-examples"><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false">
+
+
+    <link rel="canonical" href="https://github.com/ityouknow/spring-boot-examples" data-pjax-transient="">
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://github.githubassets.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <meta name="u2f-enabled" content="true">
+
+
+
+  <link rel="manifest" href="https://github.com/manifest.json" crossorigin="use-credentials">
+
+  </head>
+
+  <body class="logged-in env-production min-width-lg">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="https://github.com/ityouknow/spring-boot-examples#start-of-content" tabindex="1" class="p-3 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+          <header class="Header" role="banner">
+
+    <div class="Header-item">
+      <a class="Header-link" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+
+    </div>
+
+
+    <div class="Header-item Header-item--full">
+        <div class="header-search mr-3 scoped-search site-scoped-search js-site-search position-relative js-jump-to" role="combobox" aria-owns="jump-to-results" aria-label="Search or jump to" aria-haspopup="listbox" aria-expanded="false">
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="72907253" data-scoped-search-url="/ityouknow/spring-boot-examples/search" data-unscoped-search-url="/search" action="https://github.com/ityouknow/spring-boot-examples/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+      <label class="form-control input-sm header-search-wrapper p-0 header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text" class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable" data-hotkey="s,/" name="q" value="" placeholder="Search or jump to…" data-unscoped-placeholder="Search or jump to…" data-scoped-placeholder="Search or jump to…" autocapitalize="off" aria-autocomplete="list" aria-controls="jump-to-results" aria-label="Search or jump to…" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=40/5xWjIUSzN0BHdao/eTM9sXeg896ja5PSsIs46Z1J1NDk8J6CXYoetQflpaXP555GfmTdmnzMzjye9KtayzA==" spellcheck="false" autocomplete="off">
+          <input type="hidden" class="js-site-search-type-field" name="type">
+            <img src="./s-b-f-up_files/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="https://github.com/ityouknow/spring-boot-examples">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="https://github.com/ityouknow/spring-boot-examples" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="text-gray">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="https://github.com/ityouknow/spring-boot-examples">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="https://github.com/ityouknow/spring-boot-examples" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="https://github.com/ityouknow/spring-boot-examples">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="https://github.com/ityouknow/spring-boot-examples" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+    <li class="d-flex flex-justify-center flex-items-center p-0 f5 js-jump-to-suggestion">
+      <img src="./s-b-f-up_files/octocat-spinner-128.gif" alt="Octocat Spinner Icon" class="m-2" width="28">
+    </li>
+</ul>
+
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+
+      <nav class="d-flex" aria-label="Global">
+
+  <a class="js-selected-navigation-item Header-link  mr-3" data-hotkey="g p" data-ga-click="Header, click, Nav menu - item:pulls context:user" aria-label="Pull requests you created" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls" href="https://github.com/pulls">
+    Pull requests
+</a>
+  <a class="js-selected-navigation-item Header-link  mr-3" data-hotkey="g i" data-ga-click="Header, click, Nav menu - item:issues context:user" aria-label="Issues you created" data-selected-links="/issues /issues/assigned /issues/mentioned /issues" href="https://github.com/issues">
+    Issues
+</a>
+    <div class="mr-3">
+      <a class="js-selected-navigation-item Header-link" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-octo-click="marketplace_click" data-octo-dimensions="location:nav_bar" data-selected-links=" /marketplace" href="https://github.com/marketplace">
+        Marketplace
+</a>      
+    </div>
+
+  <a class="js-selected-navigation-item Header-link  mr-3" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="https://github.com/explore">
+    Explore
+</a>
+
+</nav>
+
+    </div>
+
+
+    <div class="Header-item position-relative">
+      
+
+    </div>
+
+    <div class="Header-item">
+      
+
+    <a aria-label="You have no unread notifications" class="Header-link notification-indicator position-relative tooltipped tooltipped-s js-socket-channel js-notification-indicator" data-hotkey="g n" data-ga-click="Header, go to notifications, icon:read" data-channel="notification-changed:52734750" href="https://github.com/notifications">
+        <span class="mail-status "></span>
+        <svg class="octicon octicon-bell" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"></path></svg>
+</a>
+    </div>
+
+
+    <div class="Header-item position-relative">
+      <details class="details-overlay details-reset">
+  <summary class="Header-link" aria-label="Create new…" data-ga-click="Header, create new, icon:add" aria-haspopup="menu">
+    <svg class="octicon octicon-plus" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"></path></svg> <span class="dropdown-caret"></span>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw" role="menu">
+    
+<a role="menuitem" class="dropdown-item" href="https://github.com/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a role="menuitem" class="dropdown-item" href="https://github.com/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a role="menuitem" class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a role="menuitem" class="dropdown-item" href="https://github.com/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+  <div role="none" class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="ityouknow/spring-boot-examples">This repository</span>
+  </div>
+    <a role="menuitem" class="dropdown-item" href="https://github.com/ityouknow/spring-boot-examples/issues/new" data-ga-click="Header, create new issue" data-skip-pjax="">
+      New issue
+    </a>
+
+
+  </details-menu>
+</details>
+
+    </div>
+
+    <div class="Header-item position-relative mr-0">
+      
+<details class="details-overlay details-reset">
+  <summary class="Header-link" aria-label="View profile and more" data-ga-click="Header, show menu, icon:avatar" aria-haspopup="menu">
+    <img alt="@XX1245" class="avatar" src="./s-b-f-up_files/52734750" height="20" width="20">
+    <span class="dropdown-caret"></span>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw mt-2" style="width: 180px" role="menu">
+    <div class="header-nav-current-user css-truncate"><a role="menuitem" class="no-underline user-profile-link px-3 pt-2 pb-2 mb-n2 mt-n1 d-block" href="https://github.com/XX1245" data-ga-click="Header, go to profile, text:Signed in as">Signed in as <strong class="css-truncate-target">XX1245</strong></a></div>
+    <div role="none" class="dropdown-divider"></div>
+
+      <div class="pl-3 pr-3 f6 user-status-container js-user-status-context pb-1" data-url="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1">
+        
+<div class="js-user-status-container
+    user-status-compact rounded-1 px-2 py-1 mt-2
+    border
+  " data-team-hovercards-enabled="">
+  <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
+    <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit " aria-haspopup="dialog" role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:4979648,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:52734750,&quot;client_id&quot;:&quot;1822681099.1562736451&quot;,&quot;originating_request_id&quot;:&quot;5896:645D:85A489:BCB2CB:5D26C09B&quot;,&quot;originating_url&quot;:&quot;https://github.com/ityouknow/spring-boot-examples&quot;,&quot;referrer&quot;:&quot;https://www.so.com/s?ie=utf-8&amp;src=dlm&amp;shb=1&amp;hsid=97f0f9674040a311&amp;ls=n5ce186af8a&amp;q=git%E4%B8%8A%E6%89%BE%E4%BA%86%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E7%9A%84Demo%EF%BC%8C%E8%83%BD%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%EF%BC%8C%E6%9C%AC%E5%91%A8%E8%B7%91%E9%80%9A%EF%BC%88https%3A%2F%2Fgithub.com%2Fityouknow%2Fspring-boot-examples+%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE+spring-boot-file-upload%EF%BC%89%E3%80%82+2%EF%BC%89%E5%90%88%E5%B9%B6%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE%22%E4%B8%8E%22%E6%95%B0%E6%8D%AE%E5%BA%93jpa%E5%AD%90%E9%A1%B9%E7%9B%AE%EF%BC%88spring-boot-jpa%EF%BC%89%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%90%8E%E8%AE%B0%E5%BD%95%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E5%88%B0tb_jxcp_file%E8%A1%A8%E3%80%82&quot;}}" data-hydro-click-hmac="f3da156604f598f07baae55f8c4f240abc8d15cdadbe0948bbf6a5f1838f422c">
+      <div class="d-flex">
+        <div class="f6 lh-condensed user-status-header
+          d-inline-block v-align-middle
+            user-status-emoji-only-header circle
+            pr-2
+" style="max-width: 29px">
+          <div class="user-status-emoji-container flex-shrink-0 mr-1 mt-1 lh-condensed-ultra v-align-bottom" style="">
+            <svg class="octicon octicon-smiley" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm4.81 12.81a6.72 6.72 0 0 1-2.17 1.45c-.83.36-1.72.53-2.64.53-.92 0-1.81-.17-2.64-.53-.81-.34-1.55-.83-2.17-1.45a6.773 6.773 0 0 1-1.45-2.17A6.59 6.59 0 0 1 1.21 8c0-.92.17-1.81.53-2.64.34-.81.83-1.55 1.45-2.17.62-.62 1.36-1.11 2.17-1.45A6.59 6.59 0 0 1 8 1.21c.92 0 1.81.17 2.64.53.81.34 1.55.83 2.17 1.45.62.62 1.11 1.36 1.45 2.17.36.83.53 1.72.53 2.64 0 .92-.17 1.81-.53 2.64-.34.81-.83 1.55-1.45 2.17zM4 6.8v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2H5.2C4.53 8 4 7.47 4 6.8zm5 0v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2h-.59C9.53 8 9 7.47 9 6.8zm4 3.2c-.72 1.88-2.91 3-5 3s-4.28-1.13-5-3c-.14-.39.23-1 .66-1h8.59c.41 0 .89.61.75 1z"></path></svg>
+          </div>
+        </div>
+        <div class="
+          d-inline-block v-align-middle
+          
+          
+           css-truncate css-truncate-target 
+           user-status-message-wrapper f6" style="line-height: 20px;">
+          <div class="d-inline-block text-gray-dark v-align-text-top text-left">
+              <span class="text-gray ml-2">Set status</span>
+          </div>
+        </div>
+      </div>
+</summary>    <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1" aria-modal="true">
+      <!-- '"` --><!-- </textarea></xmp> --><form class="position-relative flex-auto js-user-status-form" action="https://github.com/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="8rowoZWYlX9y0rbLZ+KTKMtLXzTu2XwtScq9Y2ySd+PT092FE6FOmqbEeFYoN3mIAl3VmFP9tRjYTnAjbAe0qQ==">
+        <div class="Box-header bg-gray border-bottom p-3">
+          <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog="">
+            <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+          </button>
+          <h3 class="Box-title f5 text-bold text-gray-dark">Edit status</h3>
+        </div>
+        <input type="hidden" name="emoji" class="js-user-status-emoji-field" value="">
+        <input type="hidden" name="organization_id" class="js-user-status-org-id-field" value="">
+        <div class="px-3 py-2 text-gray-dark">
+          <div class="js-characters-remaining-container position-relative mt-2">
+            <div class="input-group d-table form-group my-0 js-user-status-form-group">
+              <span class="input-group-button d-table-cell v-align-middle" style="width: 1%">
+                <button type="button" aria-label="Choose an emoji" class="btn-outline btn js-toggle-user-status-emoji-picker btn-open-emoji-picker p-0">
+                  <span class="js-user-status-original-emoji" hidden=""></span>
+                  <span class="js-user-status-custom-emoji"></span>
+                  <span class="js-user-status-no-emoji-icon">
+                    <svg class="octicon octicon-smiley" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm4.81 12.81a6.72 6.72 0 0 1-2.17 1.45c-.83.36-1.72.53-2.64.53-.92 0-1.81-.17-2.64-.53-.81-.34-1.55-.83-2.17-1.45a6.773 6.773 0 0 1-1.45-2.17A6.59 6.59 0 0 1 1.21 8c0-.92.17-1.81.53-2.64.34-.81.83-1.55 1.45-2.17.62-.62 1.36-1.11 2.17-1.45A6.59 6.59 0 0 1 8 1.21c.92 0 1.81.17 2.64.53.81.34 1.55.83 2.17 1.45.62.62 1.11 1.36 1.45 2.17.36.83.53 1.72.53 2.64 0 .92-.17 1.81-.53 2.64-.34.81-.83 1.55-1.45 2.17zM4 6.8v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2H5.2C4.53 8 4 7.47 4 6.8zm5 0v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2h-.59C9.53 8 9 7.47 9 6.8zm4 3.2c-.72 1.88-2.91 3-5 3s-4.28-1.13-5-3c-.14-.39.23-1 .66-1h8.59c.41 0 .89.61.75 1z"></path></svg>
+                  </span>
+                </button>
+              </span>
+              <text-expander keys=": @" data-mention-url="/autocomplete/user-suggestions" data-emoji-url="/autocomplete/emoji">
+                <input type="text" autocomplete="off" data-no-org-url="/autocomplete/user-suggestions" data-org-url="/suggestions?mention_suggester=1" data-maxlength="80" class="d-table-cell width-full form-control js-user-status-message-field js-characters-remaining-field" placeholder="What&#39;s happening?" name="message" value="" aria-label="What is your current status?">
+              </text-expander>
+              <div class="error">Could not update your status, please try again.</div>
+            </div>
+            <div style="margin-left: 53px" class="my-1 text-small label-characters-remaining js-characters-remaining" data-suffix="remaining" hidden="">
+              80 remaining
+            </div>
+          </div>
+          <include-fragment class="js-user-status-emoji-picker" data-url="/users/status/emoji"></include-fragment>
+          <div class="overflow-auto ml-n3 mr-n3 px-3 border-bottom" style="max-height: 33vh">
+            <div class="user-status-suggestions js-user-status-suggestions collapsed overflow-hidden">
+              <h4 class="f6 text-normal my-3">Suggestions:</h4>
+              <div class="mx-3 mt-2 clearfix">
+                  <div class="float-left col-6">
+                      <button type="button" value=":palm_tree:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="palm_tree" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f334.png"><img class="emoji" alt="palm_tree" height="20" width="20" src="./s-b-f-up_files/1f334.png"></g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
+                          On vacation
+                        </div>
+                      </button>
+                      <button type="button" value=":face_with_thermometer:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="face_with_thermometer" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f912.png"><img class="emoji" alt="face_with_thermometer" height="20" width="20" src="./s-b-f-up_files/1f912.png"></g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
+                          Out sick
+                        </div>
+                      </button>
+                  </div>
+                  <div class="float-left col-6">
+                      <button type="button" value=":house:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="house" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3e0.png"><img class="emoji" alt="house" height="20" width="20" src="./s-b-f-up_files/1f3e0.png"></g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
+                          Working from home
+                        </div>
+                      </button>
+                      <button type="button" value=":dart:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="dart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3af.png"><img class="emoji" alt="dart" height="20" width="20" src="./s-b-f-up_files/1f3af.png"></g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
+                          Focusing
+                        </div>
+                      </button>
+                  </div>
+              </div>
+            </div>
+            <div class="user-status-limited-availability-container">
+              <div class="form-checkbox my-0">
+                <input type="checkbox" name="limited_availability" value="1" class="js-user-status-limited-availability-checkbox" data-default-message="I may be slow to respond." aria-describedby="limited-availability-help-text-truncate-true-compact-true" id="limited-availability-truncate-true-compact-true">
+                <label class="d-block f5 text-gray-dark mb-1" for="limited-availability-truncate-true-compact-true">
+                  Busy
+                </label>
+                <p class="note" id="limited-availability-help-text-truncate-true-compact-true">
+                  When others mention you, assign you, or request your review,
+                  GitHub will let them know that you have limited availability.
+                </p>
+              </div>
+            </div>
+          </div>
+            
+
+<div class="d-inline-block f5 mr-2 pt-3 pb-2">
+  <div class="d-inline-block mr-1">
+    Clear status
+  </div>
+
+  <details class="js-user-status-expire-drop-down f6 dropdown details-reset details-overlay d-inline-block mr-2">
+    <summary class="f5 btn-link link-gray-dark border px-2 py-1 rounded-1" aria-haspopup="true">
+      <div class="js-user-status-expiration-interval-selected d-inline-block v-align-baseline">
+        Never
+      </div>
+      <div class="dropdown-caret"></div>
+    </summary>
+
+    <ul class="dropdown-menu dropdown-menu-se pl-0 overflow-auto" style="width: 220px; max-height: 15.5em">
+      <li>
+        <button type="button" class="btn-link dropdown-item js-user-status-expire-button ws-normal" title="Never">
+          <span class="d-inline-block text-bold mb-1">Never</span>
+          <div class="f6 lh-condensed">Keep this status until you clear your status or edit your status.</div>
+        </button>
+      </li>
+      <li class="dropdown-divider" role="none"></li>
+        <li>
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2019-07-11T13:22:47+08:00">
+            in 30 minutes
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2019-07-11T13:52:47+08:00">
+            in 1 hour
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2019-07-11T16:52:47+08:00">
+            in 4 hours
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="today" value="2019-07-11T23:59:59+08:00">
+            today
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="this week" value="2019-07-14T23:59:59+08:00">
+            this week
+          </button>
+        </li>
+    </ul>
+  </details>
+  <input class="js-user-status-expiration-date-input" type="hidden" name="expires_at" value="">
+</div>
+
+          <include-fragment class="js-user-status-org-picker" data-url="/users/status/organizations"></include-fragment>
+        </div>
+        <div class="d-flex flex-items-center flex-justify-between p-3 border-top">
+          <button type="submit" disabled="" class="width-full btn btn-primary mr-2 js-user-status-submit">
+            Set status
+          </button>
+          <button type="button" disabled="" class="width-full js-clear-user-status-button btn ml-2 ">
+            Clear status
+          </button>
+        </div>
+</form>    </details-dialog>
+  </details>
+</div>
+
+      </div>
+      <div role="none" class="dropdown-divider"></div>
+
+
+    <a role="menuitem" class="dropdown-item" href="https://github.com/XX1245" data-ga-click="Header, go to profile, text:your profile">Your profile</a>
+    <a role="menuitem" class="dropdown-item" href="https://github.com/XX1245?tab=repositories" data-ga-click="Header, go to repositories, text:your repositories">Your repositories</a>
+
+    <a role="menuitem" class="dropdown-item" href="https://github.com/XX1245?tab=projects" data-ga-click="Header, go to projects, text:your projects">Your projects</a>
+
+    <a role="menuitem" class="dropdown-item" href="https://github.com/XX1245?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">Your stars</a>
+      <a role="menuitem" class="dropdown-item" href="https://gist.github.com/mine" data-ga-click="Header, your gists, text:your gists">Your gists</a>
+
+
+    <div role="none" class="dropdown-divider"></div>
+    <a role="menuitem" class="dropdown-item" href="https://help.github.com/" data-ga-click="Header, go to help, text:help">Help</a>
+    <a role="menuitem" class="dropdown-item" href="https://github.com/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
+    <!-- '"` --><!-- </textarea></xmp> --><form class="logout-form" action="https://github.com/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="p3W++5MvIpoJyoDpbHNVosbtnMn3rrJ3U4hwXfwQ5ne8xouO48Uyp5vcvfjvAfc6+aDwO20Zkycm2RIrGP/r+Q==">
+      
+      <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
+        Sign out
+      </button>
+</form>  </details-menu>
+</details>
+
+    </div>
+
+  </header>
+
+      
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+    <div id="js-flash-container">
+
+</div>
+
+
+
+  <div class="application-main " data-commit-hovercards-enabled="">
+        <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <main id="js-repo-pjax-container" data-pjax-container="">
+      
+  
+
+
+
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+
+
+
+
+  <li>
+    
+    <!-- '"` --><!-- </textarea></xmp> --><form data-remote="true" class="clearfix js-social-form js-social-container" action="https://github.com/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="dF3z2MRk+smWpwaJc8X7nD3+KItoVD4TX7YWO4+vzBJ7oyWJVJwV2hH1z+kRD1nhVmuxQwb1neAjFzCu5OF9WQ==">      <input type="hidden" name="repository_id" value="72907253">
+
+      <details class="details-reset details-overlay select-menu float-left">
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:72907253,&quot;client_id&quot;:&quot;1822681099.1562736451&quot;,&quot;originating_request_id&quot;:&quot;5896:645D:85A489:BCB2CB:5D26C09B&quot;,&quot;originating_url&quot;:&quot;https://github.com/ityouknow/spring-boot-examples&quot;,&quot;referrer&quot;:&quot;https://www.so.com/s?ie=utf-8&amp;src=dlm&amp;shb=1&amp;hsid=97f0f9674040a311&amp;ls=n5ce186af8a&amp;q=git%E4%B8%8A%E6%89%BE%E4%BA%86%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E7%9A%84Demo%EF%BC%8C%E8%83%BD%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%EF%BC%8C%E6%9C%AC%E5%91%A8%E8%B7%91%E9%80%9A%EF%BC%88https%3A%2F%2Fgithub.com%2Fityouknow%2Fspring-boot-examples+%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE+spring-boot-file-upload%EF%BC%89%E3%80%82+2%EF%BC%89%E5%90%88%E5%B9%B6%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE%22%E4%B8%8E%22%E6%95%B0%E6%8D%AE%E5%BA%93jpa%E5%AD%90%E9%A1%B9%E7%9B%AE%EF%BC%88spring-boot-jpa%EF%BC%89%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%90%8E%E8%AE%B0%E5%BD%95%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E5%88%B0tb_jxcp_file%E8%A1%A8%E3%80%82&quot;,&quot;user_id&quot;:52734750}}" data-hydro-click-hmac="8bf1acdbdb5b65fcf5e092fc68fa5338bf992426780e039541b2fa873ac2cb64" data-ga-click="Repository, click Watch settings, action:files#disambiguate" aria-haspopup="menu">          <span data-menu-button="">
+              <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+              Watch
+          </span>
+</summary>        <details-menu class="select-menu-modal position-absolute mt-5" style="z-index: 99;" role="menu">
+          <div class="select-menu-header">
+            <span class="select-menu-title">Notifications</span>
+          </div>
+          <div class="select-menu-list">
+            <button type="submit" name="do" value="included" class="select-menu-item width-full" aria-checked="true" role="menuitemradio">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
+              <div class="select-menu-item-text">
+                <span class="select-menu-item-heading">Not watching</span>
+                <span class="description">Be notified only when participating or @mentioned.</span>
+                <span class="hidden-select-button-text" data-menu-button-contents="">
+                  <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+                  Watch
+                </span>
+              </div>
+            </button>
+
+            <button type="submit" name="do" value="release_only" class="select-menu-item width-full" aria-checked="false" role="menuitemradio">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
+              <div class="select-menu-item-text">
+                <span class="select-menu-item-heading">Releases only</span>
+                <span class="description">Be notified of new releases, and when participating or @mentioned.</span>
+                <span class="hidden-select-button-text" data-menu-button-contents="">
+                  <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+                  Unwatch releases
+                </span>
+              </div>
+            </button>
+
+            <button type="submit" name="do" value="subscribed" class="select-menu-item width-full" aria-checked="false" role="menuitemradio">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
+              <div class="select-menu-item-text">
+                <span class="select-menu-item-heading">Watching</span>
+                <span class="description">Be notified of all conversations.</span>
+                <span class="hidden-select-button-text" data-menu-button-contents="">
+                  <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+                  Unwatch
+                </span>
+              </div>
+            </button>
+
+            <button type="submit" name="do" value="ignore" class="select-menu-item width-full" aria-checked="false" role="menuitemradio">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
+              <div class="select-menu-item-text">
+                <span class="select-menu-item-heading">Ignoring</span>
+                <span class="description">Never be notified.</span>
+                <span class="hidden-select-button-text" data-menu-button-contents="">
+                  <svg class="octicon octicon-mute v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"></path></svg>
+                  Stop ignoring
+                </span>
+              </div>
+            </button>
+          </div>
+        </details-menu>
+      </details>
+        <a class="social-count js-social-count" href="https://github.com/ityouknow/spring-boot-examples/watchers" aria-label="1070 users are watching this repository">
+          1,070
+        </a>
+</form>
+  </li>
+
+  <li>
+      <div class="js-toggler-container js-social-container starring-container ">
+    <!-- '"` --><!-- </textarea></xmp> --><form class="starred js-social-form" action="https://github.com/ityouknow/spring-boot-examples/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="RsOqWapPzJwfiSKjYN9gp14a1lBO+M/Wjd3w0OsgmYqvqcrwPKbS3FWc9wSW1LdzgaWbt6H3CkdqYFrpuEyiUQ==">
+      <input type="hidden" name="context" value="repository">
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar ityouknow/spring-boot-examples" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:72907253,&quot;client_id&quot;:&quot;1822681099.1562736451&quot;,&quot;originating_request_id&quot;:&quot;5896:645D:85A489:BCB2CB:5D26C09B&quot;,&quot;originating_url&quot;:&quot;https://github.com/ityouknow/spring-boot-examples&quot;,&quot;referrer&quot;:&quot;https://www.so.com/s?ie=utf-8&amp;src=dlm&amp;shb=1&amp;hsid=97f0f9674040a311&amp;ls=n5ce186af8a&amp;q=git%E4%B8%8A%E6%89%BE%E4%BA%86%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E7%9A%84Demo%EF%BC%8C%E8%83%BD%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%EF%BC%8C%E6%9C%AC%E5%91%A8%E8%B7%91%E9%80%9A%EF%BC%88https%3A%2F%2Fgithub.com%2Fityouknow%2Fspring-boot-examples+%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE+spring-boot-file-upload%EF%BC%89%E3%80%82+2%EF%BC%89%E5%90%88%E5%B9%B6%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE%22%E4%B8%8E%22%E6%95%B0%E6%8D%AE%E5%BA%93jpa%E5%AD%90%E9%A1%B9%E7%9B%AE%EF%BC%88spring-boot-jpa%EF%BC%89%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%90%8E%E8%AE%B0%E5%BD%95%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E5%88%B0tb_jxcp_file%E8%A1%A8%E3%80%82&quot;,&quot;user_id&quot;:52734750}}" data-hydro-click-hmac="a908b1787b3ea70ec932634d5eac09129f062343d6a34d5a78ea31e073188374" data-ga-click="Repository, click unstar button, action:files#disambiguate; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
+        Unstar
+</button>        <a class="social-count js-social-count" href="https://github.com/ityouknow/spring-boot-examples/stargazers" aria-label="17024 users starred this repository">
+           17,024
+        </a>
+</form>
+    <!-- '"` --><!-- </textarea></xmp> --><form class="unstarred js-social-form" action="https://github.com/ityouknow/spring-boot-examples/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="yWzyTrXUKBtt0mYCxqJnNM1q3vmmhCqpOFuYcmAbBgY/12gf8xdUJTAY4oHkj1GOzdZyMeB9AeO+wl3KoXPLrg==">
+      <input type="hidden" name="context" value="repository">
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star ityouknow/spring-boot-examples" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:72907253,&quot;client_id&quot;:&quot;1822681099.1562736451&quot;,&quot;originating_request_id&quot;:&quot;5896:645D:85A489:BCB2CB:5D26C09B&quot;,&quot;originating_url&quot;:&quot;https://github.com/ityouknow/spring-boot-examples&quot;,&quot;referrer&quot;:&quot;https://www.so.com/s?ie=utf-8&amp;src=dlm&amp;shb=1&amp;hsid=97f0f9674040a311&amp;ls=n5ce186af8a&amp;q=git%E4%B8%8A%E6%89%BE%E4%BA%86%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E7%9A%84Demo%EF%BC%8C%E8%83%BD%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%EF%BC%8C%E6%9C%AC%E5%91%A8%E8%B7%91%E9%80%9A%EF%BC%88https%3A%2F%2Fgithub.com%2Fityouknow%2Fspring-boot-examples+%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE+spring-boot-file-upload%EF%BC%89%E3%80%82+2%EF%BC%89%E5%90%88%E5%B9%B6%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE%22%E4%B8%8E%22%E6%95%B0%E6%8D%AE%E5%BA%93jpa%E5%AD%90%E9%A1%B9%E7%9B%AE%EF%BC%88spring-boot-jpa%EF%BC%89%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%90%8E%E8%AE%B0%E5%BD%95%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E5%88%B0tb_jxcp_file%E8%A1%A8%E3%80%82&quot;,&quot;user_id&quot;:52734750}}" data-hydro-click-hmac="e96101856a85038dd69e4079f7fe62c4f1db04b0501ede59fb072b31bb81bef3" data-ga-click="Repository, click star button, action:files#disambiguate; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
+        Star
+</button>        <a class="social-count js-social-count" href="https://github.com/ityouknow/spring-boot-examples/stargazers" aria-label="17024 users starred this repository">
+          17,024
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <!-- '"` --><!-- </textarea></xmp> --><form class="btn-with-count" action="https://github.com/ityouknow/spring-boot-examples/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="dlpMQifxJ0Ku+Wd01FsjvYvIHmxGUg3OF9pejCeLMvKCemT9xCKMTrGZlCh8d3PUl07StG3iHSgouRHjIez1hA==">
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:72907253,&quot;client_id&quot;:&quot;1822681099.1562736451&quot;,&quot;originating_request_id&quot;:&quot;5896:645D:85A489:BCB2CB:5D26C09B&quot;,&quot;originating_url&quot;:&quot;https://github.com/ityouknow/spring-boot-examples&quot;,&quot;referrer&quot;:&quot;https://www.so.com/s?ie=utf-8&amp;src=dlm&amp;shb=1&amp;hsid=97f0f9674040a311&amp;ls=n5ce186af8a&amp;q=git%E4%B8%8A%E6%89%BE%E4%BA%86%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E7%9A%84Demo%EF%BC%8C%E8%83%BD%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%EF%BC%8C%E6%9C%AC%E5%91%A8%E8%B7%91%E9%80%9A%EF%BC%88https%3A%2F%2Fgithub.com%2Fityouknow%2Fspring-boot-examples+%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE+spring-boot-file-upload%EF%BC%89%E3%80%82+2%EF%BC%89%E5%90%88%E5%B9%B6%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE%22%E4%B8%8E%22%E6%95%B0%E6%8D%AE%E5%BA%93jpa%E5%AD%90%E9%A1%B9%E7%9B%AE%EF%BC%88spring-boot-jpa%EF%BC%89%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%90%8E%E8%AE%B0%E5%BD%95%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E5%88%B0tb_jxcp_file%E8%A1%A8%E3%80%82&quot;,&quot;user_id&quot;:52734750}}" data-hydro-click-hmac="4be34f601e9255b3c36677d10ce3f39828c9d1f6c63df69fd04a399039d4415c" data-ga-click="Repository, show fork modal, action:files#disambiguate; text:Fork" type="submit" title="Fork your own copy of ityouknow/spring-boot-examples to your account" aria-label="Fork your own copy of ityouknow/spring-boot-examples to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+              Fork
+</button></form>
+    <a href="https://github.com/ityouknow/spring-boot-examples/network/members" class="social-count" aria-label="7533 users forked this repository">
+      7,533
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+    <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=4979648" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ityouknow">ityouknow</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="https://github.com/ityouknow/spring-boot-examples">spring-boot-examples</a></strong>
+  
+
+</h1>
+
+    </div>
+    
+<nav class="hx_reponav reponav js-repo-nav js-sidenav-container-pjax container" itemscope="" itemtype="http://schema.org/BreadcrumbList" aria-label="Repository" data-pjax="#js-repo-pjax-container">
+
+  <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /ityouknow/spring-boot-examples" href="https://github.com/ityouknow/spring-boot-examples">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"></path></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /ityouknow/spring-boot-examples/issues" href="https://github.com/ityouknow/spring-boot-examples/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">12</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /ityouknow/spring-boot-examples/pulls" href="https://github.com/ityouknow/spring-boot-examples/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /ityouknow/spring-boot-examples/projects" href="https://github.com/ityouknow/spring-boot-examples/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"></path></svg>
+      Projects
+      <span class="Counter">0</span>
+</a>
+
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /ityouknow/spring-boot-examples/wiki" href="https://github.com/ityouknow/spring-boot-examples/wiki">
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"></path></svg>
+      Wiki
+</a>
+    <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy /ityouknow/spring-boot-examples/security/advisories" href="https://github.com/ityouknow/spring-boot-examples/security/advisories">
+      <svg class="octicon octicon-shield" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 2l7-2 7 2v6.02C14 12.69 8.69 16 7 16c-1.69 0-7-3.31-7-7.98V2zm1 .75L7 1l6 1.75v5.268C13 12.104 8.449 15 7 15c-1.449 0-6-2.896-6-6.982V2.75zm1 .75L7 2v12c-1.207 0-5-2.482-5-5.985V3.5z"></path></svg>
+      Security
+</a>
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse people /ityouknow/spring-boot-examples/pulse" href="https://github.com/ityouknow/spring-boot-examples/pulse">
+      <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"></path></svg>
+      Insights
+</a>
+
+</nav>
+
+
+  </div>
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+    
+    
+
+
+      <div class="">  <div class="f4">
+        <span class="text-gray-dark mr-2" itemprop="about">
+          about learning Spring Boot via examples. Spring Boot 教程、技术栈示例代码，快速简单上手教程。 
+        </span>
+        <span itemprop="url"><a rel="nofollow" href="http://www.ityouknow.com/">http://www.ityouknow.com/</a></span>
+  </div>
+</div>
+
+    <div class="repository-topics-container mt-2 mb-3 js-topics-list-container">  <div class="list-topics-container f6">
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/spring-boot" title="Topic: spring-boot" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:spring-boot">
+  spring-boot
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/spring-data-jpa" title="Topic: spring-data-jpa" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:spring-data-jpa">
+  spring-data-jpa
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/mybatis" title="Topic: mybatis" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:mybatis">
+  mybatis
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/thymeleaf" title="Topic: thymeleaf" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:thymeleaf">
+  thymeleaf
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/rabbitmq" title="Topic: rabbitmq" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:rabbitmq">
+  rabbitmq
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/mongodb" title="Topic: mongodb" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:mongodb">
+  mongodb
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/spring-boot-mongodb" title="Topic: spring-boot-mongodb" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:spring-boot-mongodb">
+  spring-boot-mongodb
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/scheduler" title="Topic: scheduler" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:scheduler">
+  scheduler
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/spring-boot-mail" title="Topic: spring-boot-mail" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:spring-boot-mail">
+  spring-boot-mail
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/spring-boot-examples" title="Topic: spring-boot-examples" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:spring-boot-examples">
+  spring-boot-examples
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/spring-boot-upload-file" title="Topic: spring-boot-upload-file" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:spring-boot-upload-file">
+  spring-boot-upload-file
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/fastdfs" title="Topic: fastdfs" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:fastdfs">
+  fastdfs
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/java" title="Topic: java" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:java">
+  java
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/docker" title="Topic: docker" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:docker">
+  docker
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/docker-composer" title="Topic: docker-composer" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:docker-composer">
+  docker-composer
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/spring" title="Topic: spring" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:spring">
+  spring
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/springboot-shiro" title="Topic: springboot-shiro" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:springboot-shiro">
+  springboot-shiro
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/springboot" title="Topic: springboot" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:springboot">
+  springboot
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/springcloud" title="Topic: springcloud" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:springcloud">
+  springcloud
+</a>
+
+      <a class="topic-tag topic-tag-link " href="https://github.com/topics/spring-cloud" title="Topic: spring-cloud" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:spring-cloud">
+  spring-cloud
+</a>
+
+  </div>
+</div>
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax="" href="https://github.com/ityouknow/spring-boot-examples/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"></path></svg>
+              <span class="num text-emphasized">
+                161
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax="" href="https://github.com/ityouknow/spring-boot-examples/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+            <span class="num text-emphasized">
+              2
+            </span>
+            branches
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/ityouknow/spring-boot-examples/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"></path></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+
+          <li data-contributors-hovercards-enabled="">
+              <a href="https://github.com/ityouknow/spring-boot-examples/graphs/contributors" data-hovercard-type="contributors" data-hovercard-url="/ityouknow/spring-boot-examples/community_contributors/hovercard">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4z"></path></svg>
+    <span class="num text-emphasized">
+      5
+    </span>
+    contributors
+</a>
+          </li>
+
+      </ul>
+
+        <div class="repository-lang-stats">
+          <ol class="repository-lang-stats-numbers">
+            <li>
+                <a href="https://github.com/ityouknow/spring-boot-examples/search?l=java" data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#b07219;"></span>
+                  <span class="lang">Java</span>
+                  <span class="percent">91.3%</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/ityouknow/spring-boot-examples/search?l=html" data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#e34c26;"></span>
+                  <span class="lang">HTML</span>
+                  <span class="percent">8.6%</span>
+                </a>
+            </li>
+            <li>
+                <span>
+                  <span class="color-block language-color" style="background-color:#ededed;"></span>
+                  <span class="lang">Other</span>
+                  <span class="percent">0.1%</span>
+                </span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <button type="button" class="d-flex p-0 repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+      <span class="language-color" aria-label="Java 91.3%" style="width:91.3%; background-color:#b07219;" itemprop="keywords">Java</span>
+      <span class="language-color" aria-label="HTML 8.6%" style="width:8.6%; background-color:#e34c26;" itemprop="keywords">HTML</span>
+      <span class="language-color" aria-label="Other 0.1%" style="width:0.1%; background-color:#ededed;" itemprop="keywords">Other</span>
+  </button>
+
+
+
+
+
+
+    <div class="mt-2">
+      
+    </div>
+
+  <div class="file-navigation in-mid-page d-flex flex-items-start">
+  
+<details class="details-reset details-overlay select-menu branch-select-menu  hx_rsm" id="branch-select-menu">
+  <summary class="btn btn-sm select-menu-button css-truncate" data-hotkey="w" title="Switch branches or tags" aria-haspopup="menu">
+    <i>Branch:</i>
+    <span class="css-truncate-target">master</span>
+  </summary>
+
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/ityouknow/spring-boot-examples/ref-list/master?source_action=disambiguate&amp;source_controller=files" preload="" role="menu">
+    <include-fragment class="select-menu-loading-overlay anim-pulse">
+      <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
+    </include-fragment>
+  </details-menu>
+</details>
+
+
+        <a class="btn btn-sm new-pull-request-btn" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;NEW_PULL_REQUEST_BUTTON&quot;,&quot;repository_id&quot;:72907253,&quot;client_id&quot;:&quot;1822681099.1562736451&quot;,&quot;originating_request_id&quot;:&quot;5896:645D:85A489:BCB2CB:5D26C09B&quot;,&quot;originating_url&quot;:&quot;https://github.com/ityouknow/spring-boot-examples&quot;,&quot;referrer&quot;:&quot;https://www.so.com/s?ie=utf-8&amp;src=dlm&amp;shb=1&amp;hsid=97f0f9674040a311&amp;ls=n5ce186af8a&amp;q=git%E4%B8%8A%E6%89%BE%E4%BA%86%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E7%9A%84Demo%EF%BC%8C%E8%83%BD%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%EF%BC%8C%E6%9C%AC%E5%91%A8%E8%B7%91%E9%80%9A%EF%BC%88https%3A%2F%2Fgithub.com%2Fityouknow%2Fspring-boot-examples+%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE+spring-boot-file-upload%EF%BC%89%E3%80%82+2%EF%BC%89%E5%90%88%E5%B9%B6%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE%22%E4%B8%8E%22%E6%95%B0%E6%8D%AE%E5%BA%93jpa%E5%AD%90%E9%A1%B9%E7%9B%AE%EF%BC%88spring-boot-jpa%EF%BC%89%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%90%8E%E8%AE%B0%E5%BD%95%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E5%88%B0tb_jxcp_file%E8%A1%A8%E3%80%82&quot;,&quot;user_id&quot;:52734750}}" data-hydro-click-hmac="5d17b964ecfb82b4c7ade5aeb8b3ae8599df5d3adbbd81540acfcdfd75f83a52" data-ga-click="Repository, new pull request, location:repo overview" data-pjax="true" href="https://github.com/ityouknow/spring-boot-examples/pull/new/master">New pull request</a>
+
+  <div class="breadcrumb flex-auto">
+    
+  </div>
+
+  <div class="BtnGroup">
+      
+  <!-- '"` --><!-- </textarea></xmp> --><form class="BtnGroup-parent" action="https://github.com/ityouknow/spring-boot-examples/new/master" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="fcMPqLptTPXgdIZblcWgV+87c4L2wEPIUV50Y+MOmsfP6uM3uAv02Quie7KKKrIN40GQP9gPI94Y91TcVaoEkQ==">
+    <button class="btn btn-sm BtnGroup-item" type="submit" data-disable-with="Creating file…">
+      Create new file
+    </button>
+</form>
+
+      
+  <a href="https://github.com/ityouknow/spring-boot-examples/upload/master" class="btn btn-sm BtnGroup-item">
+    Upload files
+  </a>
+
+
+    <a class="btn btn-sm empty-icon float-right BtnGroup-item" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:72907253,&quot;client_id&quot;:&quot;1822681099.1562736451&quot;,&quot;originating_request_id&quot;:&quot;5896:645D:85A489:BCB2CB:5D26C09B&quot;,&quot;originating_url&quot;:&quot;https://github.com/ityouknow/spring-boot-examples&quot;,&quot;referrer&quot;:&quot;https://www.so.com/s?ie=utf-8&amp;src=dlm&amp;shb=1&amp;hsid=97f0f9674040a311&amp;ls=n5ce186af8a&amp;q=git%E4%B8%8A%E6%89%BE%E4%BA%86%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E7%9A%84Demo%EF%BC%8C%E8%83%BD%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%EF%BC%8C%E6%9C%AC%E5%91%A8%E8%B7%91%E9%80%9A%EF%BC%88https%3A%2F%2Fgithub.com%2Fityouknow%2Fspring-boot-examples+%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE+spring-boot-file-upload%EF%BC%89%E3%80%82+2%EF%BC%89%E5%90%88%E5%B9%B6%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE%22%E4%B8%8E%22%E6%95%B0%E6%8D%AE%E5%BA%93jpa%E5%AD%90%E9%A1%B9%E7%9B%AE%EF%BC%88spring-boot-jpa%EF%BC%89%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%90%8E%E8%AE%B0%E5%BD%95%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E5%88%B0tb_jxcp_file%E8%A1%A8%E3%80%82&quot;,&quot;user_id&quot;:52734750}}" data-hydro-click-hmac="27b1cc7ff52581a55fc657887a4202d893166f8ade55f120b05bcc5c153635d3" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="https://github.com/ityouknow/spring-boot-examples/find/master">Find File</a>
+  </div>
+
+
+    
+
+    <details class="get-repo-select-menu js-get-repo-select-menu  position-relative details-overlay details-reset">
+  <summary class="btn btn-sm ml-2 btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;repository_id&quot;:72907253,&quot;target&quot;:&quot;CLONE_OR_DOWNLOAD_BUTTON&quot;,&quot;client_id&quot;:&quot;1822681099.1562736451&quot;,&quot;originating_request_id&quot;:&quot;5896:645D:85A489:BCB2CB:5D26C09B&quot;,&quot;originating_url&quot;:&quot;https://github.com/ityouknow/spring-boot-examples&quot;,&quot;referrer&quot;:&quot;https://www.so.com/s?ie=utf-8&amp;src=dlm&amp;shb=1&amp;hsid=97f0f9674040a311&amp;ls=n5ce186af8a&amp;q=git%E4%B8%8A%E6%89%BE%E4%BA%86%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E7%9A%84Demo%EF%BC%8C%E8%83%BD%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%EF%BC%8C%E6%9C%AC%E5%91%A8%E8%B7%91%E9%80%9A%EF%BC%88https%3A%2F%2Fgithub.com%2Fityouknow%2Fspring-boot-examples+%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE+spring-boot-file-upload%EF%BC%89%E3%80%82+2%EF%BC%89%E5%90%88%E5%B9%B6%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE%22%E4%B8%8E%22%E6%95%B0%E6%8D%AE%E5%BA%93jpa%E5%AD%90%E9%A1%B9%E7%9B%AE%EF%BC%88spring-boot-jpa%EF%BC%89%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%90%8E%E8%AE%B0%E5%BD%95%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E5%88%B0tb_jxcp_file%E8%A1%A8%E3%80%82&quot;,&quot;user_id&quot;:52734750}}" data-hydro-click-hmac="7a6733cf4bba873c1c5237bb0175b2203d65636723542122b0e76d5935db2d34">
+    Clone or download
+    <span class="dropdown-caret"></span>
+</summary>  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+              <!-- '"` --><!-- </textarea></xmp> --><form data-remote="true" action="https://github.com/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="p1NHsHodYr0ui1CriIfIbFS/ZKblwnKHsiMHxYLyZr34k37PXdf0hG63wpyEUbG9QJbjOqnmJ8cR5uYTH9Wl2w=="><button name="button" type="submit" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;USE_SSH&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:72907253,&quot;client_id&quot;:&quot;1822681099.1562736451&quot;,&quot;originating_request_id&quot;:&quot;5896:645D:85A489:BCB2CB:5D26C09B&quot;,&quot;originating_url&quot;:&quot;https://github.com/ityouknow/spring-boot-examples&quot;,&quot;referrer&quot;:&quot;https://www.so.com/s?ie=utf-8&amp;src=dlm&amp;shb=1&amp;hsid=97f0f9674040a311&amp;ls=n5ce186af8a&amp;q=git%E4%B8%8A%E6%89%BE%E4%BA%86%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E7%9A%84Demo%EF%BC%8C%E8%83%BD%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%EF%BC%8C%E6%9C%AC%E5%91%A8%E8%B7%91%E9%80%9A%EF%BC%88https%3A%2F%2Fgithub.com%2Fityouknow%2Fspring-boot-examples+%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE+spring-boot-file-upload%EF%BC%89%E3%80%82+2%EF%BC%89%E5%90%88%E5%B9%B6%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE%22%E4%B8%8E%22%E6%95%B0%E6%8D%AE%E5%BA%93jpa%E5%AD%90%E9%A1%B9%E7%9B%AE%EF%BC%88spring-boot-jpa%EF%BC%89%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%90%8E%E8%AE%B0%E5%BD%95%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E5%88%B0tb_jxcp_file%E8%A1%A8%E3%80%82&quot;,&quot;user_id&quot;:52734750}}" data-hydro-click-hmac="445d266e12603ebcc97d2e7b8f13d0a33de5a0a140d8327fa998d044385b75e5" class="btn-link btn-change-protocol js-toggler-target float-right">Use SSH</button></form>
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"></path></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm" data-autoselect="" value="https://github.com/ityouknow/spring-boot-examples.git" aria-label="Clone this repository at https://github.com/ityouknow/spring-boot-examples.git" readonly="">
+  <div class="input-group-button">
+    <clipboard-copy value="https://github.com/ityouknow/spring-boot-examples.git" aria-label="Copy to clipboard" class="btn btn-sm" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;COPY_URL&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:72907253,&quot;client_id&quot;:&quot;1822681099.1562736451&quot;,&quot;originating_request_id&quot;:&quot;5896:645D:85A489:BCB2CB:5D26C09B&quot;,&quot;originating_url&quot;:&quot;https://github.com/ityouknow/spring-boot-examples&quot;,&quot;referrer&quot;:&quot;https://www.so.com/s?ie=utf-8&amp;src=dlm&amp;shb=1&amp;hsid=97f0f9674040a311&amp;ls=n5ce186af8a&amp;q=git%E4%B8%8A%E6%89%BE%E4%BA%86%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E7%9A%84Demo%EF%BC%8C%E8%83%BD%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%EF%BC%8C%E6%9C%AC%E5%91%A8%E8%B7%91%E9%80%9A%EF%BC%88https%3A%2F%2Fgithub.com%2Fityouknow%2Fspring-boot-examples+%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE+spring-boot-file-upload%EF%BC%89%E3%80%82+2%EF%BC%89%E5%90%88%E5%B9%B6%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE%22%E4%B8%8E%22%E6%95%B0%E6%8D%AE%E5%BA%93jpa%E5%AD%90%E9%A1%B9%E7%9B%AE%EF%BC%88spring-boot-jpa%EF%BC%89%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%90%8E%E8%AE%B0%E5%BD%95%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E5%88%B0tb_jxcp_file%E8%A1%A8%E3%80%82&quot;,&quot;user_id&quot;:52734750}}" data-hydro-click-hmac="77f6898b3b39996ab5073fd549ece25512047588c92ef6a7993a50d73417fe71" tabindex="0" role="button"><svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></svg></clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+          <div class="clone-options ssh-clone-options">
+              <!-- '"` --><!-- </textarea></xmp> --><form data-remote="true" action="https://github.com/users/set_protocol?protocol_selector=https&amp;protocol_type=clone" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="4ieZJKv/y50DW+ZUHAt3YdKK+oOkkOUZuRjg9Ib+UOW956BbjDVdpENndGMQ3Q6wxqN9H+i0sFka3QEiG9mTgw=="><button name="button" type="submit" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;USE_HTTPS&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:72907253,&quot;client_id&quot;:&quot;1822681099.1562736451&quot;,&quot;originating_request_id&quot;:&quot;5896:645D:85A489:BCB2CB:5D26C09B&quot;,&quot;originating_url&quot;:&quot;https://github.com/ityouknow/spring-boot-examples&quot;,&quot;referrer&quot;:&quot;https://www.so.com/s?ie=utf-8&amp;src=dlm&amp;shb=1&amp;hsid=97f0f9674040a311&amp;ls=n5ce186af8a&amp;q=git%E4%B8%8A%E6%89%BE%E4%BA%86%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E7%9A%84Demo%EF%BC%8C%E8%83%BD%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%EF%BC%8C%E6%9C%AC%E5%91%A8%E8%B7%91%E9%80%9A%EF%BC%88https%3A%2F%2Fgithub.com%2Fityouknow%2Fspring-boot-examples+%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE+spring-boot-file-upload%EF%BC%89%E3%80%82+2%EF%BC%89%E5%90%88%E5%B9%B6%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE%22%E4%B8%8E%22%E6%95%B0%E6%8D%AE%E5%BA%93jpa%E5%AD%90%E9%A1%B9%E7%9B%AE%EF%BC%88spring-boot-jpa%EF%BC%89%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%90%8E%E8%AE%B0%E5%BD%95%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E5%88%B0tb_jxcp_file%E8%A1%A8%E3%80%82&quot;,&quot;user_id&quot;:52734750}}" data-hydro-click-hmac="85e960f38a632dd7d1e982c89f934ab10bf74f7953f770e56c3b4b07dc002729" class="btn-link btn-change-protocol js-toggler-target float-right">Use HTTPS</button></form>
+              <h4 class="mb-1">
+                Clone with SSH
+                <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                  <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"></path></svg>
+                </a>
+              </h4>
+
+                <div class="flash flash-warn my-3">
+                  You don't have any public SSH keys in your GitHub account.
+                  You can <a href="https://github.com/settings/ssh/new">add a new public key</a>, or try cloning this repository via <button class="btn-link js-toggler-target">HTTPS.</button>
+                </div>
+
+              <p class="mb-2 get-repo-decription-text">
+                Use an SSH key and passphrase from account.
+              </p>
+
+              <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm" data-autoselect="" value="git@github.com:ityouknow/spring-boot-examples.git" aria-label="Clone this repository at git@github.com:ityouknow/spring-boot-examples.git" readonly="">
+  <div class="input-group-button">
+    <clipboard-copy value="git@github.com:ityouknow/spring-boot-examples.git" aria-label="Copy to clipboard" class="btn btn-sm" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;COPY_URL&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:72907253,&quot;client_id&quot;:&quot;1822681099.1562736451&quot;,&quot;originating_request_id&quot;:&quot;5896:645D:85A489:BCB2CB:5D26C09B&quot;,&quot;originating_url&quot;:&quot;https://github.com/ityouknow/spring-boot-examples&quot;,&quot;referrer&quot;:&quot;https://www.so.com/s?ie=utf-8&amp;src=dlm&amp;shb=1&amp;hsid=97f0f9674040a311&amp;ls=n5ce186af8a&amp;q=git%E4%B8%8A%E6%89%BE%E4%BA%86%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E7%9A%84Demo%EF%BC%8C%E8%83%BD%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%EF%BC%8C%E6%9C%AC%E5%91%A8%E8%B7%91%E9%80%9A%EF%BC%88https%3A%2F%2Fgithub.com%2Fityouknow%2Fspring-boot-examples+%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE+spring-boot-file-upload%EF%BC%89%E3%80%82+2%EF%BC%89%E5%90%88%E5%B9%B6%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE%22%E4%B8%8E%22%E6%95%B0%E6%8D%AE%E5%BA%93jpa%E5%AD%90%E9%A1%B9%E7%9B%AE%EF%BC%88spring-boot-jpa%EF%BC%89%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%90%8E%E8%AE%B0%E5%BD%95%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E5%88%B0tb_jxcp_file%E8%A1%A8%E3%80%82&quot;,&quot;user_id&quot;:52734750}}" data-hydro-click-hmac="77f6898b3b39996ab5073fd549ece25512047588c92ef6a7993a50d73417fe71" tabindex="0" role="button"><svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></svg></clipboard-copy>
+  </div>
+</div>
+
+          </div>
+        <div class="mt-2">
+            <a class="btn btn-outline get-repo-btn tooltipped tooltipped-s tooltipped-multiline js-get-repo" aria-label="Clone ityouknow/spring-boot-examples to your computer and use it in GitHub Desktop." data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;OPEN_IN_DESKTOP&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:72907253,&quot;client_id&quot;:&quot;1822681099.1562736451&quot;,&quot;originating_request_id&quot;:&quot;5896:645D:85A489:BCB2CB:5D26C09B&quot;,&quot;originating_url&quot;:&quot;https://github.com/ityouknow/spring-boot-examples&quot;,&quot;referrer&quot;:&quot;https://www.so.com/s?ie=utf-8&amp;src=dlm&amp;shb=1&amp;hsid=97f0f9674040a311&amp;ls=n5ce186af8a&amp;q=git%E4%B8%8A%E6%89%BE%E4%BA%86%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E7%9A%84Demo%EF%BC%8C%E8%83%BD%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%EF%BC%8C%E6%9C%AC%E5%91%A8%E8%B7%91%E9%80%9A%EF%BC%88https%3A%2F%2Fgithub.com%2Fityouknow%2Fspring-boot-examples+%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE+spring-boot-file-upload%EF%BC%89%E3%80%82+2%EF%BC%89%E5%90%88%E5%B9%B6%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE%22%E4%B8%8E%22%E6%95%B0%E6%8D%AE%E5%BA%93jpa%E5%AD%90%E9%A1%B9%E7%9B%AE%EF%BC%88spring-boot-jpa%EF%BC%89%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%90%8E%E8%AE%B0%E5%BD%95%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E5%88%B0tb_jxcp_file%E8%A1%A8%E3%80%82&quot;,&quot;user_id&quot;:52734750}}" data-hydro-click-hmac="3086fcd653380522a0fffed9fffcfec214ea693676752ef222610298fcc4bc34" data-open-app="windows" href="https://desktop.github.com/">Open in Desktop</a>
+
+<a class="btn btn-outline get-repo-btn  " rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;DOWNLOAD_ZIP&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:72907253,&quot;client_id&quot;:&quot;1822681099.1562736451&quot;,&quot;originating_request_id&quot;:&quot;5896:645D:85A489:BCB2CB:5D26C09B&quot;,&quot;originating_url&quot;:&quot;https://github.com/ityouknow/spring-boot-examples&quot;,&quot;referrer&quot;:&quot;https://www.so.com/s?ie=utf-8&amp;src=dlm&amp;shb=1&amp;hsid=97f0f9674040a311&amp;ls=n5ce186af8a&amp;q=git%E4%B8%8A%E6%89%BE%E4%BA%86%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E7%9A%84Demo%EF%BC%8C%E8%83%BD%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%EF%BC%8C%E6%9C%AC%E5%91%A8%E8%B7%91%E9%80%9A%EF%BC%88https%3A%2F%2Fgithub.com%2Fityouknow%2Fspring-boot-examples+%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE+spring-boot-file-upload%EF%BC%89%E3%80%82+2%EF%BC%89%E5%90%88%E5%B9%B6%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE%22%E4%B8%8E%22%E6%95%B0%E6%8D%AE%E5%BA%93jpa%E5%AD%90%E9%A1%B9%E7%9B%AE%EF%BC%88spring-boot-jpa%EF%BC%89%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%90%8E%E8%AE%B0%E5%BD%95%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E5%88%B0tb_jxcp_file%E8%A1%A8%E3%80%82&quot;,&quot;user_id&quot;:52734750}}" data-hydro-click-hmac="a8a530ad8fe5547f601ad2dbe4dc488cc13950f1d9aeec75f785f7490c163903" data-ga-click="Repository, download zip, location:repo overview" href="https://github.com/ityouknow/spring-boot-examples/archive/master.zip">Download ZIP</a>
+
+        </div>
+      </div>
+
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+</div>
+
+
+  
+
+
+  <div class="commit-tease js-details-container Details d-flex rounded-top-1" data-issue-and-pr-hovercards-enabled="">
+    
+<div class="AvatarStack flex-self-start ">
+  <div class="AvatarStack-body" aria-label="ityouknow">
+        <a class="avatar" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=4979648" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ityouknow">
+          <img height="20" width="20" alt="@ityouknow" src="./s-b-f-up_files/4979648">
+</a>  </div>
+</div>
+
+    <div class="flex-auto f6 mr-3">
+      
+      <a href="https://github.com/ityouknow/spring-boot-examples/commits?author=ityouknow" class="commit-author tooltipped tooltipped-s user-mention" aria-label="View all commits by ityouknow">ityouknow</a>
+
+
+  
+
+
+        <a data-pjax="true" title="m" class="message text-inherit" href="https://github.com/ityouknow/spring-boot-examples/commit/dac5cd3d8477742d3bfd66c44d8db4847bed674a">m</a>
+
+    </div>
+    <div class="no-wrap">
+      Latest commit
+      <a class="commit-tease-sha" href="https://github.com/ityouknow/spring-boot-examples/commit/dac5cd3d8477742d3bfd66c44d8db4847bed674a" data-pjax="">
+        dac5cd3
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2019-05-18T10:22:51Z" title="2019年5月18日 GMT+8 下午6:22">on 18 May</relative-time></span>
+    </div>
+  </div>
+
+
+
+<div class="file-wrap">
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="https://github.com/ityouknow/spring-boot-examples/tree/dac5cd3d8477742d3bfd66c44d8db4847bed674a">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax="">
+    <thead>
+      <tr>
+        <th><span class="sr-only">Type</span></th>
+        <th><span class="sr-only">Name</span></th>
+        <th><span class="sr-only">Latest commit message</span></th>
+        <th><span class="sr-only">Commit time</span></th>
+      </tr>
+    </thead>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="dockercompose-springboot-mysql-nginx" id="7e43dd3639bfcd1377081e70f1d7006f-27dcae980bd7233532eea1470e7078460553b74e" href="https://github.com/ityouknow/spring-boot-examples/tree/master/dockercompose-springboot-mysql-nginx">dockercompose-springboot-mysql-nginx</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add dockercompose-springboot-mysql-nginx" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/e659e6501fac37017a02b4cf313c6fba62caa0cb">add dockercompose-springboot-mysql-nginx</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-26T03:37:47Z" title="2018年3月26日 GMT+8 上午11:37">last year</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-actuator" id="36be03a6063ae2e273442f89e2d2597f-6e6bd302ef0c3077fa63d57ebefe2495adaa77ca" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-actuator">spring-boot-actuator</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="update version to 2.1.0" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/735db79e5520e2d07f1beabd0458be9f143ca6f2">update version to 2.1.0</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-18T08:25:18Z" title="2019年3月18日 GMT+8 下午4:25">4 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-admin-simple" id="b9b25070f0fcedf9f563d15e0b63cff0-976d8cfdadc908843f92dd02301c2c1c23dd847b" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-admin-simple">spring-boot-admin-simple</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="update version to 2.10" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/55c366b583d8fe4e71394c65d38296c5fb7f0709">update version to 2.10</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-18T08:28:35Z" title="2019年3月18日 GMT+8 下午4:28">4 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-banner" id="ffa564ab108f952914601af5ed6bdd1e-aff3fd54939e5fa343db5eb50bcbf9b8a938bf08" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-banner">spring-boot-banner</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="m" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/677a1838471eafb867fcb8f182c73423f2ec3d6e">m</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-03T08:01:55Z" title="2018年3月3日 GMT+8 下午4:01">last year</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-commandLineRunner" id="d27dea6903038049ec3a517c97b7307a-70bc054a5a4b92d5bd14bd43efad8d2af5162b9b" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-commandLineRunner" se_prerender_url="complete">spring-boot-commandLineRunner</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add CommandLineRunner" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/8bc1baf7cd5ed3914b5d1cf80f0d1c771d7fd371">add CommandLineRunner</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-29T05:20:32Z" title="2018年3月29日 GMT+8 下午1:20">last year</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-docker" id="5abee811d2a1aac3e5f8da3dcafaa250-0a7ecb7c92ea959e959ef69c69d64b9354c708a1" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-docker">spring-boot-docker</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="m" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/4fdf113bbd081083e86610405f58a119a2bdfed3">m</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-13T10:25:58Z" title="2018年3月13日 GMT+8 下午6:25">last year</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-elasticsearch" id="34fe7ec3dcfa43ca214026c25797d76d-005b63c2f21c94d1e4191412eac0234f8a408a23" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-elasticsearch">spring-boot-elasticsearch</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add elasticsearch example" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/758102ecf630095155a0bf8ded333d55580ad6cd">add elasticsearch example</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-04-04T07:57:05Z" title="2019年4月4日 GMT+8 下午3:57">3 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item navigation-focus" aria-selected="true">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-fastDFS" id="d16c5b243aa1bda2dd9ab8320f60a0d2-ac112a285629361ef16b172a7d2fc6346a9adcf2" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-fastDFS" se_prerender_url="complete">spring-boot-fastDFS</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="update version to 2.1.0" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/735db79e5520e2d07f1beabd0458be9f143ca6f2">update version to 2.1.0</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-18T08:25:18Z" title="2019年3月18日 GMT+8 下午4:25">4 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-file-upload" id="836d6b7fafe08c0c3c6457d14a930303-d72697d9eb856e7a394bf836f81c256b91865fd1" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-file-upload">spring-boot-file-upload</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="update version to 2.1.0" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/735db79e5520e2d07f1beabd0458be9f143ca6f2">update version to 2.1.0</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-18T08:25:18Z" title="2019年3月18日 GMT+8 下午4:25">4 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-hello" id="dbe79b3d939d6a0254fc5e00eb660a34-93934afb51adfb8c8df1bc9a787dd1bbcd53cca2" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-hello">spring-boot-hello</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add spring boot hello" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/9c789b2202c6159234b45f6d6847b594f6910a94">add spring boot hello</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-11T06:15:42Z" title="2019年3月11日 GMT+8 下午2:15">4 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-helloWorld" id="1f158fc5e5cda5dce12f55fdddc97753-9389fa132178b66050f4f4c1420ce9ed68c07d55" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-helloWorld">spring-boot-helloWorld</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="m" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/dac5cd3d8477742d3bfd66c44d8db4847bed674a">m</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-05-18T10:22:51Z" title="2019年5月18日 GMT+8 下午6:22">2 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-jpa-thymeleaf-curd" id="b5391eca1ae0085db1cb72f5e1b78718-3d44291b48b44fabb85b500d4ea3c10ff1f5e845" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-jpa-thymeleaf-curd">spring-boot-jpa-thymeleaf-curd</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="update version to 2.1.0" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/735db79e5520e2d07f1beabd0458be9f143ca6f2">update version to 2.1.0</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-18T08:25:18Z" title="2019年3月18日 GMT+8 下午4:25">4 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-jpa" id="b49f600cc7381873bd80d87d3f22bedd-d8f9ecad4f012cb5ad9fa1c83df487c6c963859d" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-jpa" se_prerender_url="complete">spring-boot-jpa</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add jpa examples" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/8de7f6bbbae9267d079c8f93cbfa03467e0477a8">add jpa examples</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-09T14:46:53Z" title="2019年3月9日 GMT+8 下午10:46">4 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-mail" id="bfea40c62cb5b81340d13a3060d3e3d9-756209280999ffa3d4ddaf1146f6c66a14a39eea" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-mail">spring-boot-mail</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="update version to 2.10" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/b8543683db5b7d47d9672b313a3e02d744e70cfd">update version to 2.10</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-18T02:07:02Z" title="2019年3月18日 GMT+8 上午10:07">4 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-memcache-spymemcached" id="546e227ecfc92b6c69b1f5a0a0963fb1-0a388af03830e1796f6341a325207b7db47aab7d" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-memcache-spymemcached">spring-boot-memcache-spymemcached</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/519e81fc552b46684ac574eb5c6a89ed36c8ff42">add</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-08-30T04:04:28Z" title="2018年8月30日 GMT+8 下午12:04">11 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-mongodb" id="2867cf01e08ff1c8cfea18a078b707e7-49a637403cd6bf67f9e886ed30cf8f58e9514aef" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-mongodb" se_prerender_url="complete">spring-boot-mongodb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="update version to 2.10" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/b8543683db5b7d47d9672b313a3e02d744e70cfd">update version to 2.10</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-18T02:07:02Z" title="2019年3月18日 GMT+8 上午10:07">4 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-mybatis-plus" id="17b418658d073cf436e5c9323db7d190-a1eb9deb6bbfd6b34b245ca03c692cc48f061658" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-mybatis-plus">spring-boot-mybatis-plus</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="MyBatis Plus demo" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/a6dfb84b61dee2ecbf35151fd57c35648453e33e">MyBatis Plus demo</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-05-13T09:30:48Z" title="2019年5月13日 GMT+8 下午5:30">2 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-mybatis" id="afad16c890e57373b53911f2544d0afc-869089491ed165edee47aed966fa95e25bb9a9e6" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-mybatis">spring-boot-mybatis</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="mybatis multi datasouce demo" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/da902e1e768f7fab778f863348c2fa28ff2a2383">mybatis multi datasouce demo</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-13T08:51:46Z" title="2019年3月13日 GMT+8 下午4:51">4 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-package-war" id="036c7d273fcd852ce0c8c80cd0ed4360-d5eeac036b9e7606b796243106cfc9675d3c7219" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-package-war">spring-boot-package-war</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="m" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/9d18d3e6861f90642a13bce1c8af4e59e686a367">m</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-05-08T07:21:37Z" title="2017年5月8日 GMT+8 下午3:21">2 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-package" id="15cf6c749b3ef6a87f1ad742683e1e86-37ce1846f8ecd464c079ba5b32dfee78cf9524a3" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-package">spring-boot-package</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="update version to 2.10" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/b8543683db5b7d47d9672b313a3e02d744e70cfd">update version to 2.10</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-18T02:07:02Z" title="2019年3月18日 GMT+8 上午10:07">4 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-rabbitmq" id="9cd11c973788e100c2b1f355dc935744-186218b4ceea39f3bfeed653885eca808b7a8520" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-rabbitmq">spring-boot-rabbitmq</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="RabbitMQ" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/6c172907610ebabd6842244050691f0366ad6ae2">RabbitMQ</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-14T09:49:41Z" title="2019年3月14日 GMT+8 下午5:49">4 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-redis" id="baf26c654d036d60c1911a69ea8d7541-6d23e9fb916ee7c7ae71af845325320407b19c91" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-redis">spring-boot-redis</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add redis examples" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/21f0073f026a495cbecf8fd14abbc7a2b18e1fd2">add redis examples</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-06T03:05:28Z" title="2019年3月6日 GMT+8 上午11:05">4 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-scheduler" id="920f2816cdc2b82dca767f356918e83f-81e8b8cfff5307b0501773cc95949ce9f60ffa45" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-scheduler">spring-boot-scheduler</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="scheduler" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/ed67c898d6bfb487e815e1220f2d027f256bafd2">scheduler</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-15T06:18:43Z" title="2019年3月15日 GMT+8 下午2:18">4 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-shiro" id="45f6186e8829ec7012546148e5e214e3-24ee9a24f62ca4a2aa3d911fadd7b2971589a90e" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-shiro">spring-boot-shiro</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="update version to 2.10" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/b8543683db5b7d47d9672b313a3e02d744e70cfd">update version to 2.10</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-18T02:07:02Z" title="2019年3月18日 GMT+8 上午10:07">4 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-swagger" id="59a2dc1ce343e5b6d83047a41c8c9f90-8392ac30c7631fdd353e42bebe8b254697a32dc1" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-swagger">spring-boot-swagger</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add swagger2 examples" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/832664240ca77941e8543293b6bce7e03142f73d">add swagger2 examples</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-04-04T08:08:24Z" title="2019年4月4日 GMT+8 下午4:08">3 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-thymeleaf" id="7b27e11a1728d5cbf293a919809fca40-ad6178ec4645fd9f33c56887ee42f503facf9d7f" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-thymeleaf">spring-boot-thymeleaf</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="update thymeleaf to 4.0" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/e6ceae590ee7b31b8352f80b154921a32f28cd75">update thymeleaf to 4.0</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-08T08:55:31Z" title="2019年3月8日 GMT+8 下午4:55">4 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-web-thymeleaf" id="80b8e7b585552f778992116f1cffba3e-5fbff5165ad5e6d3cd05d6adc719f494863b15e3" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-web-thymeleaf">spring-boot-web-thymeleaf</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="m" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/b6c50bf67f34dc4213445dda4685c4792bb72f45">m</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-06-04T10:25:09Z" title="2018年6月4日 GMT+8 下午6:25">last year</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-web" id="3d84f9d4742d7ccdd6088ca8248e81d3-da86b8cfe556b505305468754271d5112a425ab1" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-web">spring-boot-web</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add web operating examples" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/94a16c677f73b0fb5898d46bd0d2b9910ec573a4">add web operating examples</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-12T00:55:05Z" title="2019年3月12日 GMT+8 上午8:55">4 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="directory" class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="spring-boot-webflux" id="05926555d8d4e5f5949914e7234a1a6e-9e331a72ea16c831ee107da70362c62f3d048697" href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-webflux">spring-boot-webflux</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="correct project name" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/86dbe820a699b962c4a8506e654185dc234cac2e">correct project name</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-04-26T03:01:26Z" title="2019年4月26日 GMT+8 上午11:01">3 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-991728cccbe8d39f43e605d4c241d7ee38bd6357" href="https://github.com/ityouknow/spring-boot-examples/blob/master/.gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add root pom.xml
+
+Make it easy to import by IDE, like IntelliJ IDEA" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/6bfa942308e687a57e987481a62f4192f92c4d6b">Add root pom.xml</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-19T02:47:43Z" title="2019年3月19日 GMT+8 上午10:47">4 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-1727bdc54ff85f5b487b76974229cb990c413097" href="https://github.com/ityouknow/spring-boot-examples/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="MyBatis Plus demo" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/a6dfb84b61dee2ecbf35151fd57c35648453e33e">MyBatis Plus demo</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-05-13T09:30:48Z" title="2019年5月13日 GMT+8 下午5:30">2 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README_EN.md" id="f3b8d4053e95ee74f8a771f4a53bbe69-62b2fe3aba3844111bf3e0f01b416988238e77b5" href="https://github.com/ityouknow/spring-boot-examples/blob/master/README_EN.md">README_EN.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="MyBatis Plus demo" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/a6dfb84b61dee2ecbf35151fd57c35648453e33e">MyBatis Plus demo</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-05-13T09:30:48Z" title="2019年5月13日 GMT+8 下午5:30">2 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-label="file" class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./s-b-f-up_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="pom.xml" id="600376dffeb79835ede4a0b285078036-07940ab242914761985d81026eb7b15d78bc5a07" href="https://github.com/ityouknow/spring-boot-examples/blob/master/pom.xml">pom.xml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add root pom.xml
+
+Make it easy to import by IDE, like IntelliJ IDEA" class="link-gray" href="https://github.com/ityouknow/spring-boot-examples/commit/6bfa942308e687a57e987481a62f4192f92c4d6b">Add root pom.xml</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2019-03-19T02:47:43Z" title="2019年3月19日 GMT+8 上午10:47">4 months ago</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="Box Box--condensed instapaper_body md js-code-block-container">
+    <div class="Box-header d-flex flex-items-center flex-justify-between px-2">
+      <h3 class="Box-title pr-3">
+        <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"></path></svg>
+        README.md
+      </h3>
+    </div>
+        <div class="Popover anim-scale-in js-tagsearch-popover" hidden="" data-tagsearch-url="/ityouknow/spring-boot-examples/find-symbols" data-tagsearch-ref="master" data-tagsearch-path="README.md" data-tagsearch-lang="Markdown" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:72907253,&quot;ref&quot;:&quot;master&quot;,&quot;client_id&quot;:&quot;1822681099.1562736451&quot;,&quot;originating_request_id&quot;:&quot;5896:645D:85A489:BCB2CB:5D26C09B&quot;,&quot;originating_url&quot;:&quot;https://github.com/ityouknow/spring-boot-examples&quot;,&quot;referrer&quot;:&quot;https://www.so.com/s?ie=utf-8&amp;src=dlm&amp;shb=1&amp;hsid=97f0f9674040a311&amp;ls=n5ce186af8a&amp;q=git%E4%B8%8A%E6%89%BE%E4%BA%86%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E7%9A%84Demo%EF%BC%8C%E8%83%BD%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%EF%BC%8C%E6%9C%AC%E5%91%A8%E8%B7%91%E9%80%9A%EF%BC%88https%3A%2F%2Fgithub.com%2Fityouknow%2Fspring-boot-examples+%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE+spring-boot-file-upload%EF%BC%89%E3%80%82+2%EF%BC%89%E5%90%88%E5%B9%B6%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%AD%90%E9%A1%B9%E7%9B%AE%22%E4%B8%8E%22%E6%95%B0%E6%8D%AE%E5%BA%93jpa%E5%AD%90%E9%A1%B9%E7%9B%AE%EF%BC%88spring-boot-jpa%EF%BC%89%22%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%90%8E%E8%AE%B0%E5%BD%95%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E5%88%B0tb_jxcp_file%E8%A1%A8%E3%80%82&quot;,&quot;user_id&quot;:52734750}}" data-hydro-click-hmac="c4757abcff84b372a8cbe91e97fbcb391538a0b6c0cb02358a84805295dd0a22">
+  <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mx-auto Box box-shadow-large">
+    <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto">
+    </div>
+  </div>
+</div>
+
+      <div class="Box-body">
+        <article class="markdown-body entry-content p-5" itemprop="text"><h1><a id="user-content-spring-boot-学习示例" class="anchor" aria-hidden="true" href="https://github.com/ityouknow/spring-boot-examples#spring-boot-学习示例"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Spring Boot 学习示例</h1>
+<p><a target="_blank" rel="noopener noreferrer" href="./s-b-f-up_files/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f537072696e67253230426f6f742d322e302d627269676874677265656e2e737667"><img src="./s-b-f-up_files/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f537072696e67253230426f6f742d322e302d627269676874677265656e2e737667" alt="Spring Boot 2.0" data-canonical-src="https://img.shields.io/badge/Spring%20Boot-2.0-brightgreen.svg" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="./s-b-f-up_files/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d7973716c2d352e362d626c75652e737667"><img src="./s-b-f-up_files/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d7973716c2d352e362d626c75652e737667" alt="Mysql 5.6" data-canonical-src="https://img.shields.io/badge/Mysql-5.6-blue.svg" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="./s-b-f-up_files/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a444b2d312e382d627269676874677265656e2e737667"><img src="./s-b-f-up_files/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a444b2d312e382d627269676874677265656e2e737667" alt="JDK 1.8" data-canonical-src="https://img.shields.io/badge/JDK-1.8-brightgreen.svg" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="./s-b-f-up_files/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6176656e2d332e352e302d79656c6c6f77677265656e2e737667"><img src="./s-b-f-up_files/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6176656e2d332e352e302d79656c6c6f77677265656e2e737667" alt="Maven" data-canonical-src="https://img.shields.io/badge/Maven-3.5.0-yellowgreen.svg" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="./s-b-f-up_files/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d504c2d2d322e302d626c75652e737667"><img src="./s-b-f-up_files/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d504c2d2d322e302d626c75652e737667" alt="license" data-canonical-src="https://img.shields.io/badge/license-MPL--2.0-blue.svg" style="max-width:100%;"></a></p>
+<p>Spring Boot 使用的各种示例，以最简单、最实用为标准，此开源项目中的每个示例都以最小依赖，最简单为标准，帮助初学者快速掌握 Spring Boot 各组件的使用。</p>
+<p><a href="https://github.com/ityouknow/awesome-spring-boot">Spring Boot 中文索引</a> &nbsp;| &nbsp; <a href="https://github.com/ityouknow/spring-cloud-examples">Spring Cloud学习示例代码</a> &nbsp;| &nbsp; <a href="https://github.com/ityouknow/spring-boot-leaning">Spring Boot 精品课程</a></p>
+<p><a href="https://github.com/ityouknow/spring-boot-examples/blob/master/README_EN.md">English</a> &nbsp;| &nbsp;  <a href="https://github.com/ityouknow/spring-boot-examples">Github地址</a> &nbsp;| &nbsp; <a href="https://gitee.com/ityouknow/spring-boot-examples" rel="nofollow">码云地址</a> &nbsp;| &nbsp;  <a href="https://github.com/ityouknow/spring-boot-examples/tree/Spring-Boot-1.0">Spring Boot 1.0</a></p>
+<hr>
+<h2><a id="user-content-spring-boot-20" class="anchor" aria-hidden="true" href="https://github.com/ityouknow/spring-boot-examples#spring-boot-20"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Spring Boot 2.0</h2>
+<p><strong><a href="https://github.com/ityouknow/spring-boot-leaning">Spring Boot 2.0 最全使用教程</a></strong></p>
+<p><strong><a href="https://github.com/cloudfavorites/favorites-web">Favorites-web</a>：云收藏（Spring Boot 2.0 实战开源项目）</strong></p>
+<p><strong>示例代码</strong></p>
+<ul>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-hello">spring-boot-hello</a>：Spring Boot 2.0  Hello World 示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-banner">spring-boot-banner</a>：Spring Boot 定制 Banner 示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-docker">spring-boot-docker</a>：使用 Docker 部署 Spring Boot 示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/dockercompose-springboot-mysql-nginx">dockercompose-springboot-mysql-nginx</a> ：Docker Compose + Spring Boot + Nginx + Mysql 示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-commandLineRunner">spring-boot-commandLineRunner</a> ：Spring Boot 使用 commandLineRunner 实现项目启动时资源初始化示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-web-thymeleaf">spring-boot-web-thymeleaf</a> ：Spring Boot 使用 thymeleaf 实现布局、验参、增删改查示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-memcache-spymemcached">spring-boot-memcache-spymemcached</a> ：Spring Boot 使用 spymemcached 集成  memcache 示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-webflux">spring-boot-webflux</a> ：Spring Boot webflux 示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-elasticsearch">spring-boot-elasticsearch</a> ：Spring Boot elasticsearch 示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-swagger">spring-boot-swagger</a> ：Spring Boot swagger2 示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-mybatis-plus">spring-boot-mybatis-plus</a> ：Spring Boot 集成 MyBatis Plus 示例</li>
+</ul>
+<p><strong>参考文章</strong></p>
+<ul>
+<li><a href="http://www.ityouknow.com/springboot/2018/03/01/spring-boot-2.0.html" rel="nofollow">Spring Boot 2(一)：【重磅】Spring Boot 2.0权威发布</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2018/03/03/spring-boot-banner.html" rel="nofollow">Spring Boot 2(二)：Spring Boot 2.0尝鲜-动态 Banner</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2018/03/05/spring-boot-open-source.html" rel="nofollow">Spring Boot 2(三)：Spring Boot 开源软件都有哪些？</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2018/03/19/spring-boot-docker.html" rel="nofollow">Spring Boot 2(四)：使用 Docker 部署 Spring Boot</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2018/03/28/dockercompose-springboot-mysql-nginx.html" rel="nofollow">Spring Boot 2(五)：Docker Compose + Spring Boot + Nginx + Mysql 实践</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2018/04/02/docker-favorites.html" rel="nofollow">Spring Boot 2(六)：使用 Docker 部署 Spring Boot 开源软件云收藏</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2018/05/03/spring-boot-commandLineRunner.html" rel="nofollow">Spring Boot 2(七)：Spring Boot 如何解决项目启动时初始化资源</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2018/09/01/spring-boot-memcached.html" rel="nofollow">Spring Boot 2(八)：Spring Boot 集成 Memcached</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2018/11/03/spring-boot-2.1.html" rel="nofollow">Spring Boot 2 (九)：【重磅】Spring Boot 2.1.0 权威发布</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2019/01/03/spring-pivotal.html" rel="nofollow">Spring Boot/Cloud 研发团队介绍</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2019/02/12/spring-boot-webflux.html" rel="nofollow">Spring Boot 2 (十)：Spring Boot 中的响应式编程和 WebFlux 入门</a></li>
+</ul>
+<h2><a id="user-content-下方示例已经全部升级到-2x可关注下方公号查看" class="anchor" aria-hidden="true" href="https://github.com/ityouknow/spring-boot-examples#下方示例已经全部升级到-2x可关注下方公号查看"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>下方示例已经全部升级到 2.X，可关注下方公号查看。</h2>
+<p><a target="_blank" rel="noopener noreferrer" href="./s-b-f-up_files/687474703a2f2f7777772e6974796f756b6e6f772e636f6d2f6173736574732f696d616765732f6a6176612e6a7067"><img src="./s-b-f-up_files/687474703a2f2f7777772e6974796f756b6e6f772e636f6d2f6173736574732f696d616765732f6a6176612e6a7067" alt="" data-canonical-src="http://www.ityouknow.com/assets/images/java.jpg" style="max-width:100%;"></a></p>
+<p>另外关注后，回复：java 获取超过10000+人领取的 Java 知识体系/面试必看资料。</p>
+<p><strong>示例代码</strong></p>
+<ul>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-helloWorld">spring-boot-helloWorld</a>：Spring Boot 的 hello World 版本</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-web">spring-boot-web</a>：Spring Boot Web 开发综合示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-redis">spring-boot-redis</a>：Spring Boot 集成 Redis 示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-jpa">spring-boot-jpa</a>：Spring Boot 使用 Jpa 各种示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-mybatis/spring-boot-mybatis-annotation">spring-boot-mybaits-annotation</a>：注解版本</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-mybatis/spring-boot-mybatis-xml">spring-boot-mybaits-xml</a>：Xml 配置版本</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-mybatis/spring-boot-mybatis-xml-mulidatasource">spring-boot-mybatis-xml-mulidatasource</a>：Spring Boot + Mybatis (Xml 版） 多数据源最简解决方案</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-mybatis/spring-boot-mybatis-annotation-mulidatasource">spring-boot-mybatis-annotation-mulidatasource</a>：Spring Boot + Mybatis（注解版）多数据源最简解决方案</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-thymeleaf">spring-boot-thymeleaf</a>：Spring Boot 使用 Thymeleaf 详细示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-jpa-thymeleaf-curd">spring-boot-jpa-thymeleaf-curd</a>：Spring Boot  + Jpa + Thymeleaf 增删改查示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-rabbitmq">spring-boot-rabbitmq</a>：Spring Boot 和 Rabbitmq 各种消息应用案例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-scheduler">spring-boot-scheduler</a>：Spring Boot 和定时任务案例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-mail">spring-boot-mail</a>：Spring Boot 和邮件服务</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-mongodb/spring-boot-mongodb">spring-boot-mongodb</a>：Spring Boot 和 Mongodb 的使用</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-mongodb/spring-boot-multi-mongodb">spring-boot-multi-mongodb</a>：Spring Boot 和 Mongodb 多数据源的使用</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-package-war">spring-boot-package-war</a>： Spring Boot 打包成 War 包示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-shiro">spring-boot-shiro</a>：Spring Boot  整合 Shiro Rbac 示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-file-upload">spring-boot-file-upload</a>：使用 Spring Boot 上传文件示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-fastDFS">spring-boot-fastDFS</a>：Spring Boot 整合 FastDFS 示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-actuator">spring-boot-actuator</a>：Spring Boot Actuator 使用示例</li>
+<li><a href="https://github.com/ityouknow/spring-boot-examples/tree/master/spring-boot-admin-simple">spring-boot-admin-simple</a>：Spring Boot Admin 的使用示例</li>
+</ul>
+<p><strong>参考文章</strong></p>
+<ul>
+<li><a href="http://www.ityouknow.com/springboot/2016/01/06/spring-boot-quick-start.html" rel="nofollow">Spring Boot(一)：入门篇</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2016/02/03/spring-boot-web.html" rel="nofollow">Spring Boot(二)：Web 综合开发</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2016/03/06/spring-boot-redis.html" rel="nofollow">Spring Boot(三)：Spring Boot 中 Redis 的使用</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2016/05/01/spring-boot-thymeleaf.html" rel="nofollow">Spring Boot(四)：Thymeleaf 使用详解</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2016/08/20/spring-boot-jpa.html" rel="nofollow">Spring Boot(五)：Spring Data Jpa 的使用</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2016/11/06/spring-boot-mybatis.html" rel="nofollow">Spring Boot(六)：如何优雅的使用 Mybatis</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2016/11/25/spring-boot-multi-mybatis.html" rel="nofollow">Spring Boot(七)：Spring Boot + Mybatis 多数据源最简解决方案</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2016/11/30/spring-boot-rabbitMQ.html" rel="nofollow">Spring Boot(八)：RabbitMQ 详解</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2016/12/02/spring-boot-scheduler.html" rel="nofollow">Spring Boot(九)：定时任务</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2017/05/06/spring-boot-mail.html" rel="nofollow">Spring Boot(十)：邮件服务</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2017/05/08/spring-boot-mongodb.html" rel="nofollow">Spring Boot(十一)：Spring Boot 中 Mongodb 的使用</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2017/05/09/spring-boot-deploy.html" rel="nofollow">Spring Boot(十二)：Spring Boot 如何测试打包部署</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2017/06/22/spring-boot-tips.html" rel="nofollow">Spring Boot(十三)：Spring Boot 小技巧</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2017/06/26/spring-boot-shiro.html" rel="nofollow">Spring Boot(十四)：Spring Boot 整合 Shiro-登录认证和权限管理</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2017/09/23/spring-boot-jpa-thymeleaf-curd.html" rel="nofollow">Spring Boot(十五)：Spring Boot + Jpa + Thymeleaf 增删改查示例</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2017/11/11/spring-boot-jenkins.html" rel="nofollow">Spring Boot(十六)：使用 Jenkins 部署 Spring Boot</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2018/01/12/spring-boot-upload-file.html" rel="nofollow">Spring Boot(十七)：使用 Spring Boot 上传文件</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2018/01/16/spring-boot-fastdfs.html" rel="nofollow">Spring Boot(十八)：使用 Spring Boot 集成 FastDFS</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2018/02/06/spring-boot-actuator.html" rel="nofollow">Spring Boot(十九)：使用 Spring Boot Actuator 监控应用</a></li>
+<li><a href="http://www.ityouknow.com/springboot/2018/02/11/spring-boot-admin.html" rel="nofollow">Spring Boot(二十)：使用 spring-boot-admin 对 Spring Boot 服务进行监控</a></li>
+</ul>
+<p><strong><a href="http://www.ityouknow.com/springboot/2016/09/26/spring-boot-opensource-favorites.html" rel="nofollow">Spring Boot 实战：我们的第一款开源项目</a></strong></p>
+<hr>
+<blockquote>
+<p>如果大家想了解关于 Spring Boot 的其它方面应用，也可以以<a href="https://github.com/ityouknow/spring-boot-examples/issues">issues</a>的形式反馈给我，我后续来完善。</p>
+</blockquote>
+<p>关注公众号：纯洁的微笑，回复"springboot"进群交流</p>
+<p><a target="_blank" rel="noopener noreferrer" href="./s-b-f-up_files/687474703a2f2f7777772e6974796f756b6e6f772e636f6d2f6173736574732f696d616765732f6b65657070757265736d696c655f3433302e6a7067"><img src="./s-b-f-up_files/687474703a2f2f7777772e6974796f756b6e6f772e636f6d2f6173736574732f696d616765732f6b65657070757265736d696c655f3433302e6a7067" alt="" data-canonical-src="http://www.ityouknow.com/assets/images/keeppuresmile_430.jpg" style="max-width:100%;"></a></p>
+</article>
+      </div>
+  </div>
+
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </main>
+  </div>
+  
+
+  </div>
+
+        
+<div class="footer container-lg width-full px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">© 2019 <span title="0.50957s from unicorn-5ccb946d99-ndp89">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
+        <li class="mr-3"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com/">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mx-lg-4" href="https://github.com/">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3"><a href="https://developer.github.com/" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com/" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3"><a href="https://github.blog/" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    
+    <script crossorigin="anonymous" integrity="sha512-mxKcLKe1PSS00TpWBTYMDM5u/3N8fjH9TViQqKljWBkiZs0e3hXU4gTaJjqaopJliYDhnsgZKVwkbEuvbEX9TQ==" type="application/javascript" src="./s-b-f-up_files/frameworks-96c669c6.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-fGWKs1xKCBTTpsgg5C4/axMQGijlMBYE9papaEJGRY45RpgFihkhiUIATw2+C3aVJZ3wyeXz6MNSP9Eh4y+tOw==" type="application/javascript" src="./s-b-f-up_files/github-bootstrap-4652d74a.js"></script>
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner" hidden="">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="https://github.com/ityouknow/spring-boot-examples">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="https://github.com/ityouknow/spring-boot-examples">Reload</a> to refresh your session.</span>
+  </div>
+  <template id="site-details-dialog"></template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+  <div aria-live="polite" class="js-global-screen-reader-notice sr-only"></div>
+
+  
+
+
+</body></html>
